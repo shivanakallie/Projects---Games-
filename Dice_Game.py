@@ -1,3 +1,5 @@
+# roll the dice and try to stay below 50. If you roll "1", you lose! 
+
 import random
 
 def roll(): 
@@ -41,7 +43,7 @@ while max(player_scores) < max_score:
             print("You rolled a: ", value)
 
             print("Your score is: ", current_score)
-player_scores[player_index] +=current_score
+player_scores[player_index] += current_score
 print("Your total score is: ", player_scores[player_index])
 
 
